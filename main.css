@@ -1,0 +1,31 @@
+.navigation,
+.header_actions,
+.logo_link {
+  display: inline-block;
+  vertical-align: middle;
+  /* Aligns with middle of parent */
+}
+
+.nav_list li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 35px;
+  /* Adds space between list items */
+}
+
+.nav_list li:last-child {
+  margin-right: 0;
+  /* Removes margin for the last item */
+}
+
+.navigation {
+  width: 60%;
+  text-align: right;
+  /* Aligns navigation to the right */
+  margin-right: 30px;
+}
+
+.nav_item:hover {
+  text-decoration: underline;
+  /* Adds underline on hover */
+}
