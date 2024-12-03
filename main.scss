@@ -29,3 +29,18 @@
     text-decoration: underline;
     /* Adds underline on hover */
 }
+.header_social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social_icon {
+    color: #210552;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social_icon:hover {
+    color: #007bff; /* Ljusblå färg vid hover */
+  }
